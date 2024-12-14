@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="culcstyle.css">
+</head>
+<body>
+    <div class="main-flex">
+        <div id="displayBox" class="display-box"></div>
+        <div class="main-grid">
+            <button onclick="pressAction('+')" class="culc-button">+</button>
+            <button onclick="pressNumber(3)" class="culc-button">3</button>
+            <button onclick="pressNumber(2)" class="culc-button">2</button>
+            <button onclick="pressNumber(1)" class="culc-button">1</button>
+
+            <button onclick="pressAction('-')" class="culc-button">-</button>
+            <button onclick="pressNumber(6)" class="culc-button">6</button>
+            <button onclick="pressNumber(5)" class="culc-button">5</button>
+            <button onclick="pressNumber(4)" class="culc-button">4</button>
+
+            <button onclick="pressAction('*')" class="culc-button">*</button>
+            <button onclick="pressNumber(9)" class="culc-button">9</button>
+            <button onclick="pressNumber(8)" class="culc-button">8</button>
+            <button onclick="pressNumber(7)" class="culc-button">7</button>
+            
+            <button onclick="pressAction('/')" class="culc-button">/</button>
+            <button onclick="resultPress()" class="culc-button">=</button>
+            <button onclick="pressNumber(0)" class="culc-button">0</button>
+            <button onclick="pressedC()" class="culc-button">C</button>
+        </div>
+    </div>
+
+    <script src="culcScript.js"></script>
+</body>
+</html>

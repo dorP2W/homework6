@@ -1,0 +1,23 @@
+.main-flex{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.main-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.display-box{
+    border: 3px solid black;
+    height: 20px;
+}
+
+.culc-button{
+    background-color: white;
+}
+
+.culc-button:hover{
+    background-color: lightgrey;
+}
